@@ -76,7 +76,8 @@ let checkWinner = () => {
 
         if( posVal1 != "" && posVal2 != "" && posVal3 != ""){
             if(posVal1 === posVal2 && posVal2 === posVal3){
-                showWinner(posVal1);     
+                showWinner(posVal1); 
+                console.log(posVal1);    
             }else{
                 // noWinnerrr();
             }
